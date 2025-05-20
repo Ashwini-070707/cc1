@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <!-- Linking CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Box icons -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+  <!-- Header design -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#Home" class="Default">Home</a>
+      <a href="#About">About</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home section -->
+  <section class="home" id="home">s
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Ashwini Atole</h1>
+      <h3>
+        <span>FY BTech Electronic and </span><br>
+          Telecommunications Engineering</span><br>
+        Student at MITAOE
+      </h3>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/Ashwini-Atole-7a4283177/">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="mailto:Email-atoleashwini480@gmail.com">
+          <i class="bx bx-envelope"></i>
+        </a>
+      </div>
+      <a href="White and Black Simple Student CV Resume.pdf (1).pdf" class="btn">Download CV</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="About">
+    <div class="about-img">
+      <img src="aboutimg.png" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <p>
+        Hello! I'm an engineering student with a passion for entrepreneurship and a diverse skill set that extends beyond my field of study. With expertise in graphic design, photography, and video editing, I bring a creative and visual approach to my work. Alongside my proficiency in data science, I strive to merge analytical thinking with artistic expression. With an entrepreneurial spirit driving me, I aspire to leverage my multidisciplinary skills to create innovative and impactful ventures.    am passionate for innovation design, and solving real-world problems through technology.
+        My academic journey has equipped me with a strong foundation in core Entc concepts, 
+        hands-on experie with tools and software, and a growing interest in interdisciplinary 
+        fields like automation and quantum computing. 
+         This portfolio reflects my projects, learnings, and creative problem-solving approach as
+          I continue to explore the endless possibilities within engineering. Thanks for visiting-feel free to reach out
+           for collaborations, internships, or just a good chat about tech and ideas.
+      </p>
+      <a href="about.html" class="btn"></a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="Skills">
+    <h2 class="heading">My <span>Skills and Achievement</span></h2>
+    <div class="skills-container">
+      <div class="skills-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Nasscom</h3>
+        <p>
+          Proficient in front-end web development, utilizing HTML, CSS to create dynamic and interactive websites and different types of web pages.
+        </p>
+        <a href="NASSCOM.jpg" class="btn">Read More</a>
+      </div>
+      <div class="skills-box">
+        <i class="bx bxl-python"></i>
+        <h3>Python languages  </h3>
+        <p>
+          Proficient in programming languages such as Python along with data manipulation and visualization tools like pandas, NumPy, and Matplotlib, enabling efficient data processing and presentation.
+        </p>
+        <a href="DocScanner 15 Apr 2025 5-46 pm.pdf" class="btn">Read More</a>
+      </div>
+      <div class="skills-box">
+        <i class="bx bx-line-chart"></i>
+        <h3>International Youth Math Challenge</h3>
+        <p>
+          Strong analytical and problem-solving skills, coupled with the ability to quickly learn new technologies and adapt to evolving new trends and best practices.
+        </p>
+        <a href="INY.jpg" class="btn">Read More</a>
+      </div>
+      <div class="skills-box">
+        <i class="bx bxs-camera"></i>
+        <h3>Photography</h3>
+        <p>
+          Photography skills encompass an understanding of composition, lighting, and exposure, along with technical proficiency in operating cameras and editing software. Additionally, I have a creative eye, attention to detail, and the ability to capture compelling visual narratives through my images.
+        </p>
+        <a href="photoghraphy.pdf" class="btn">Read More</a>
+      </div>
+      <div class="skills-box">
+        <i class="bx bx-camera-movie"></i>
+        <h3>Video Editing</h3>
+        <p>
+          Video editing skills involve proficiency in editing software such as Adobe Premiere Pro, Final Cut Pro, or VN Editor, as well as a strong understanding of storytelling, pacing, and visual continuity. I also have knowledge of color grading, audio editing, and special effects to enhance the overall quality of the final product.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section class="contact" id="Contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
